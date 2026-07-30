@@ -1,0 +1,10 @@
+Main ANN Challenge - Evaluation Metrics
+========================================
+Accuracy : 0.9561
+Precision: 0.9855
+Recall   : 0.9444
+F1 Score : 0.9645
+Epochs actually run: 62
+Confusion Matrix:
+[[41  1]
+ [ 4 68]]
