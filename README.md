@@ -16,7 +16,7 @@ python code/02_bonus_challenge_ann.py
 
 ## Main Challenge summary
 
-The main model is a normal feed-forward ANN with four hidden layers, so it stays under the five layer limit. It uses Dense layers of size 64, 32, 16, and 8, with ReLU activation, plus batch normalization and dropout to keep it from overfitting. It trains for up to 150 epochs, which is under the 200 epoch cap, and early stopping brings training to a halt once validation loss stops improving. On the held-out test set, it reached:
+The main model is a normal feed-forward ANN with four hidden layers, so it stays under the five-layer limit. It uses Dense layers of size 64, 32, 16, and 8, with ReLU activation, plus batch normalization and dropout to keep it from overfitting. It trains for up to 150 epochs, which is under the 200 epoch cap, and early stopping brings training to a halt once validation loss stops improving. On the held-out test set, it reached:
 
 | Metric | Score |
 |---|---|
@@ -36,4 +36,3 @@ The bonus model has three hidden layers (48, 24, 12 neurons, so each layer is a 
 | Precision | 0.9855 | 0.9857 |
 | Recall | 0.9444 | 0.9583 |
 | F1 Score | 0.9645 | 0.9718 |
-ns are not always bit-for-bit identical. That is expected and normal, not a bug.
